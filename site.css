@@ -1,0 +1,556 @@
+@media screen and (max-width: 767px) {
+   body{
+        background: linear-gradient(rgba(0, 0, 0, 0.496),rgba(0, 0, 0, 0.496)), url('bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+}
+.sec_1{
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.sect1{
+  padding-left: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.sect2 i{
+    padding: 0 5px;
+    color: black;
+    font-size: 1rem;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+header section{
+    color: rgb(245, 240, 245);
+    font-size: 1.1rem;
+    padding-left: 3px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 2px;
+}
+nav ul li a{
+    padding: 0 8px;
+    font-size: 0.9rem;
+    color: rgb(245, 240, 245);
+    text-decoration: none;
+}
+.ar1{
+    color: rgb(245, 240, 245);
+    padding-bottom: 60px;
+}
+.ar1 strong{
+    color: aquamarine;
+    font-size: 1.3rem;
+}
+.ar1 h1{
+    text-transform: capitalize;
+    padding: 0;
+}
+.bu1{
+    border-radius: 15px;
+    width: 130px;
+    height: 25px;
+    border: 0;
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+}
+.ar2{
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+}
+.ar2 .p1{
+    background-color: aquamarine;
+    width: 100%;
+    padding: 0;
+    color: black;
+}
+.p1 p{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.p1 p button{
+    background-color: transparent;
+    width: 100px;
+    border-radius: 10px;
+}
+.ar2 ul{
+    list-style: none;
+}
+.ar2 ul li img{
+    height: 200px;
+    padding-bottom: 20px;
+}
+.badima{
+    width: 300px;
+}
+.ar3{
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+}
+.ar3 .p1{
+    background-color: aquamarine;
+    width: 100%;
+    padding-bottom: 10px;
+    color: black;
+}
+.con{
+    background-color: aqua;
+    padding-top: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+.con ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.con code{
+    display: flex;
+    justify-content: space-between;
+}
+code p{
+    padding-left: 20px;
+    text-align:start;
+}
+li i{
+    padding: 5px;
+    font-size: 1.5rem;
+    width: 33px;
+    height: 35px;
+    border-radius: 100px;
+    justify-content:space-around;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.649);
+}
+form{
+    background-color: rgba(255, 255, 255, 0.433);
+    color: black;
+}
+form strong{
+    text-align: center;
+}
+form input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: rgba(255, 255, 255, 0.433);
+    width: 100%;
+    height: 30px;
+    color: black;
+}
+form textarea{
+     border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: rgba(255, 255, 255, 0.433);
+    width: 100%;
+    height: 100px;
+    color: black;
+}
+.sbu{
+    width: 150px;
+    background-color: aliceblue;
+}
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.496),rgba(0, 0, 0, 0.496)), url('bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+}
+.sec_1{
+    background-color: aquamarine;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.sect1{
+  padding-left: 2px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.sect2 i{
+    padding: 0 13px;
+    color: black;
+    font-size: 1.5rem;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+header section{
+    color: rgb(245, 240, 245);
+    font-size: 1.8rem;
+    padding-left: 3px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 2px;
+}
+nav ul li a{
+    padding: 0 10px;
+    font-size: 1.4rem;
+    color: rgb(245, 240, 245);
+    text-decoration: none;
+}
+.ar1{
+    color: rgb(245, 240, 245);
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ar1 strong{
+    color: aquamarine;
+    font-size: 1.7rem;
+}
+.ar1 h1{
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    padding: 0;
+}
+.bu1{
+    border-radius: 50px;
+    font-size: 1.2rem;
+    width: 170px;
+    height: 50px;
+    border: 0;
+    background-color: aquamarine;
+}
+h2{
+    padding-top: 7px;
+    text-align: center;
+}
+.ar2{
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+    font-size: 1.7rem;
+}
+.ar2 .p1{
+    background-color: aquamarine;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0;
+    color: black;
+}
+.p1 p{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.p1 p button{
+    background-color: transparent;
+    width: 170px;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 50px;
+}
+.ar2 ul{
+    list-style: none;
+}
+.ar2 ul li img{
+    height: 350px;
+    padding-bottom: 20px;
+}
+.badima{
+    width: 530px;
+}
+.ar3{
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+    font-size: 1.8rem;
+}
+.ar3 .p1{
+    background-color: aquamarine;
+    width: 100%;
+    padding-bottom: 10px;
+    color: black;
+}
+.con{
+    background-color: aqua;
+    padding-top: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+.con ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.con code{
+    display: flex;
+    justify-content: space-between;
+}
+code p{
+    padding-left: 20px;
+    text-align:start;
+}
+li i{
+    padding: 15px;
+    font-size: 3.6rem;
+    width: 33px;
+    height: 35px;
+    border-radius: 100px;
+    justify-content:space-around;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.649);
+}
+form{
+    background-color: rgba(255, 255, 255, 0.433);
+    color: black;
+    width: 99%;
+}
+form strong{
+    text-align: center;
+}
+form input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: rgba(255, 255, 255, 0.433);
+    width: 100%;
+    font-size: 1.5rem;
+    height: 50px;
+    color: black;
+}
+form textarea{
+     border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: rgba(255, 255, 255, 0.433);
+    width: 100%;
+    height: 100px;
+    color: black;
+     font-size: 1.5rem;
+}
+.sbu{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+}
+@media screen and (min-width: 1024px) {
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.496),rgba(0, 0, 0, 0.496)), url('bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+}
+.sec_1{
+    background-color: aquamarine;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.sect1{
+  padding-left: 2px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.sect2 i{
+    padding: 0 13px;
+    color: black;
+    font-size: 1.5rem;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+header section{
+    color: rgb(245, 240, 245);
+    font-size: 1.8rem;
+    padding-left: 3px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 2px;
+}
+nav ul li a{
+    padding: 0 10px;
+    font-size: 1.4rem;
+    color: rgb(245, 240, 245);
+    text-decoration: none;
+}
+.ar1{
+    color: rgb(245, 240, 245);
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.ar1 strong{
+    color: aquamarine;
+    font-size: 1.7rem;
+}
+.ar1 h1{
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    padding: 0;
+}
+.bu1{
+    border-radius: 50px;
+    font-size: 1.2rem;
+    width: 170px;
+    height: 50px;
+    border: 0;
+    background-color: aquamarine;
+}
+h2{
+    padding-top: 7px;
+    text-align: center;
+}
+.ar2{
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+    font-size: 1.7rem;
+}
+.ar2 .p1{
+    background-color: aquamarine;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0;
+    color: black;
+}
+.p1 p{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.p1 p button{
+    background-color: transparent;
+    width: 170px;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 50px;
+}
+.ar2 ul{
+    list-style: none;
+}
+.ar2 ul li {
+    display: flex;
+}
+.ar2 ul li img{
+    height: 350px;
+    padding-bottom: 20px;
+}
+.badima{
+    width: 530px;
+}
+.ar3{
+    background-color: rgba(0, 0, 0, 0.611);
+    color: white;
+    font-size: 1.8rem;
+}
+.ar3 .p1{
+    background-color: aquamarine;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: black;
+}
+.con{
+    background-color: aqua;
+    padding-top: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+.con ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.con code{
+    display: flex;
+    justify-content: space-between;
+}
+code p{
+    padding-left: 20px;
+    text-align:start;
+}
+li i{
+    padding: 15px;
+    font-size: 3.6rem;
+    width: 33px;
+    height: 35px;
+    border-radius: 100px;
+    justify-content:space-around;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.649);
+}
+form{
+    background-color: rgba(255, 255, 255, 0.433);
+    color: black;
+    width: 99%;
+}
+form strong{
+    text-align: center;
+}
+form input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: rgba(255, 255, 255, 0.433);
+    width: 100%;
+    font-size: 1.5rem;
+    height: 50px;
+    color: black;
+}
+form textarea{
+     border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    background-color: rgba(255, 255, 255, 0.433);
+    width: 100%;
+    height: 100px;
+    color: black;
+     font-size: 1.5rem;
+}
+.sbu{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+}
